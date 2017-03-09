@@ -1,4 +1,4 @@
-parity_path: /tmp/parity
+parity_path: /var/lib/parity
 
 parity_authorities: []
 #  - phrase: node0

@@ -3,8 +3,8 @@
     "engine": {
         "authorityRound": {
             "params": {
-                "gasLimitBoundDivisor": "0x400",
-                "stepDuration": "5",
+                "gasLimitBoundDivisor": "0x1000",
+                "stepDuration": "1",
                 "validators" : {
                     "list": []
                 }
@@ -23,8 +23,8 @@
                 "signature": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
             }
         },
-        "difficulty": "0x20000",
-        "gasLimit": "0x5B8D80"
+        "difficulty": "0x20",
+        "gasLimit": "0x100000000"
     },
     "accounts": {
         "0x0000000000000000000000000000000000000001": { "balance": "1", "builtin": { "name": "ecrecover", "pricing": { "linear": { "base": 3000, "word": 0 } } } },
